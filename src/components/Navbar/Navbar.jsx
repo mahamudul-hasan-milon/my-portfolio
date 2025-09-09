@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { MdMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import "../../App.css";
 
 const menuItems = [
   { id: "about", label: "About" },

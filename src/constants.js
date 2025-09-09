@@ -35,6 +35,7 @@ import csharpLogo from "./assets/tech_logo/csharp.png";
 
 // Experience Section Logo's
 import myself from "./assets/profile2.jpg";
+
 import cholobazar from "./assets/company_logo/cholobazar.png";
 
 // Education Section Logo's
@@ -108,7 +109,7 @@ export const experiences = [
     id: 0,
     img: cholobazar,
     role: "MERN Stack Developer",
-    company: "Academic Project",
+    company: "Academic Self-Project",
     date: "June 2024 - November 2024",
     desc: "I built the Cholobazar E-commerce Website using the MERN stack, featuring user login, product, cart and order functionalities. I designed a responsive UI with React.js and Tailwind CSS, integrated REST APIs and managed the project with Git/GitHub.",
     skills: [
@@ -127,7 +128,7 @@ export const experiences = [
   {
     id: 1,
     img: myself,
-    role: "Front-End Web Developer",
+    role: "Front-End Developer",
     company: "Self-Project",
     date: "January 2024 - May 2024",
     desc: "I created a portfolio website using React.js and Tailwind CSS, featuring responsive layouts with reusable components and smooth animations for enhanced UX. I deployed the site for a professional presence and managed hosting and version control with Git/GitHub.",
