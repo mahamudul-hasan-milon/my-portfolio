@@ -19,11 +19,11 @@ const About = () => {
             M H Milon
           </h2>
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 leading-tight">
-            <span className="text-white">I am a </span>
+            <span className="text-white">I'm a </span>
             <span className="text-[#8245ec]">
               <Typewriter
                 words={[
-                  "Fullstack Web Developer",
+                  "Web Developer",
                   "Android App Developer",
                   "UI/UX Designer",
                 ]}
