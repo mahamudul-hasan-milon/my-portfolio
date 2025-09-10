@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 px-4 md:px-8 lg:px-16 xl:px-20 font-sans bg-skills-gradient clip-path-custom-2 w-full mx-auto"
+      className="py-24 px-10 md:px-8 lg:px-16 xl:px-20 font-sans bg-skills-gradient clip-path-custom-2 w-full mx-auto"
     >
       {/* Section title */}
       <div className="text-center mb-16">
@@ -42,7 +42,7 @@ const Experience = () => {
 
             {/* Content section */}
             <div
-              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_10px_rgba(130,69,236,0.3)] ${
+              className={`w-full mb-10 sm:max-w-md p-4 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_10px_rgba(130,69,236,0.3)] ${
                 index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
               } sm:ml-44 sm:mr-44 ml-4 transform transition-transform duration-300 hover:scale-105`}
             >
