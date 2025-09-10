@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center py-24 px-4"
+      className="flex flex-col items-center justify-center py-24 px-4 -mt-30"
     >
       <ToastContainer />
       {/* Section title */}

@@ -5,13 +5,13 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 px-6 sm:px-8 md:px-12 lg:px-20 font-sans bg-skills-gradient clip-path-custom-2 w-full mx-auto"
+      className="py-24 px-6 -mt-25 sm:px-8 md:px-12 lg:px-20 font-sans bg-skills-gradient clip-path-custom-2 w-full mx-auto"
     >
       {/* Section title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-        <p className="text-gray-400 mt-4 text-lg font-medium max-w-2xl mx-auto">
+        <p className="text-gray-400 mt-4 text-lg font-medium max-w-full mx-auto">
           A collection of my professional experiences highlighting roles,
           responsibilities, and contributions across different organizations.
         </p>

@@ -4,13 +4,13 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-24 px-6 sm:px-8 md:px-12 lg:px-20 font-sans bg-skills-gradient clip-path-custom-3 w-full mx-auto"
+      className="py-24 px-6 -mt-15 sm:px-8 md:px-12 lg:px-20 font-sans bg-skills-gradient clip-path-custom-3 w-full mx-auto"
     >
       {/* Section title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">EDUCATION</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-        <p className="text-gray-400 mt-4 text-lg font-medium max-w-2xl mx-auto">
+        <p className="text-gray-400 mt-4 text-lg font-medium max-w-full mx-auto">
           My education has been a journey of continuous learning and
           development. Here are the details of my academic background.
         </p>
