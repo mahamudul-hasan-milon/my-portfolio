@@ -8,10 +8,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
+      className="py-16 w-full px-4 md:px-8 lg:px-16 xl:px-20 font-sans mt-16 md:mt-24 lg:mt-32"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
-        {/* Left side */}
+        {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
             This is
@@ -37,7 +37,6 @@ const About = () => {
               />
             </span>
           </h3>
-          {/* About Me */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             This is Mahamudul Hasan Milon, a passionate Fullstack Web Developer
             and Android App Developer who loves turning ideas into powerful
@@ -45,11 +44,9 @@ const About = () => {
             creative design, I build modern, user-friendly and scalable
             applications.
           </p>
-          {/* Resume button */}
           <a
             href="https://drive.google.com/file/d/16gDSVUWbg82PfdUZENTUVxQV9VkzrlZv/view"
             target="_blank"
-            rel=""
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: "linear-gradient(90deg, #8245ec, #a855f7)",
@@ -59,6 +56,7 @@ const About = () => {
             DOWNLOAD RESUME
           </a>
         </div>
+
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt

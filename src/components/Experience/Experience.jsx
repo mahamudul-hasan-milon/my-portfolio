@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2 backgroundImage"
+      className="py-24 px-4 md:px-8 lg:px-16 xl:px-20 font-sans bg-skills-gradient clip-path-custom-2 w-full mx-auto"
     >
       {/* Section title */}
       <div className="text-center mb-16">
@@ -17,10 +17,12 @@ const Experience = () => {
           responsibilities and contributions across various organizations.
         </p>
       </div>
+
       {/* Experience timeline */}
       <div className="relative">
-        {/* vertical line */}
-        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
+        {/* Vertical line */}
+        <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 w-1 bg-white h-full"></div>
+
         {/* Experience Entries */}
         {experiences.map((experience, index) => (
           <div
@@ -35,17 +37,17 @@ const Experience = () => {
                 src={experience.img}
                 alt={experience.company}
                 className="w-full h-full object-cover rounded-full"
-              ></img>
+              />
             </div>
+
             {/* Content section */}
             <div
               className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_10px_rgba(130,69,236,0.3)] ${
                 index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300 hover:scale-105`}
+              } sm:ml-44 sm:mr-44 ml-4 transform transition-transform duration-300 hover:scale-105`}
             >
-              {/* Flex container for image and text*/}
               <div className="flex items-center space-x-6">
-                {/* company logo */}
+                {/* Company logo */}
                 <div className="w-16 h-16 bg-white rounded-md overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
@@ -53,6 +55,7 @@ const Experience = () => {
                     alt={experience.company}
                   />
                 </div>
+
                 {/* Role, Company Name, Date */}
                 <div className="flex flex-col justify-between">
                   <div>
@@ -63,19 +66,20 @@ const Experience = () => {
                       {experience.company}
                     </h4>
                   </div>
-                  {/* Date */}
                   <p className="text-sm text-gray-500 mt-2">
                     {experience.date}
                   </p>
                 </div>
               </div>
+
               <p className="mt-4 text-gray-400">{experience.desc}</p>
+
               <div className="mt-4">
                 <h5 className="font-medium text-white">Skills:</h5>
                 <ul className="flex flex-wrap mt-2">
-                  {experience.skills.map((skill, index) => (
+                  {experience.skills.map((skill, i) => (
                     <li
-                      key={index}
+                      key={i}
                       className="bg-[#8245ec] text-gray-300 px-4 py-1 text-xs sm:text-sm rounded-lg mr-2 mb-2 border border-gray-400"
                     >
                       {skill}

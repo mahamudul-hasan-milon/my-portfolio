@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-3 backgroundImage"
+      className="py-24 px-4 md:px-8 lg:px-16 xl:px-20 font-sans bg-skills-gradient clip-path-custom-3 w-full mx-auto"
     >
       {/* Section title */}
       <div className="text-center mb-16">
@@ -15,11 +15,11 @@ const Education = () => {
           the details of my academic background.
         </p>
       </div>
+
       {/* Education timeline */}
       <div className="relative">
-        {/* vertical line */}
         <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
-        {/* Education Entries */}
+
         {education.map((edu, index) => (
           <div
             key={edu.id}
@@ -27,23 +27,20 @@ const Education = () => {
               index % 2 === 0 ? "sm:justify-start" : "sm:justify-end"
             }`}
           >
-            {/* Timeline Circle */}
             <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
               <img
                 src={edu.img}
                 alt={edu.school}
                 className="w-full h-full object-cover rounded-full"
-              ></img>
+              />
             </div>
-            {/* Content section */}
+
             <div
               className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_10px_rgba(130,69,236,0.3)] ${
                 index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300 hover:scale-105`}
+              } sm:ml-44 sm:mr-44 ml-4 transform transition-transform duration-300 hover:scale-105`}
             >
-              {/* Flex container for image and text*/}
               <div className="flex items-center space-x-6">
-                {/* school logo */}
                 <div className="w-16 h-16 bg-white rounded-md overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
@@ -51,7 +48,7 @@ const Education = () => {
                     alt={edu.school}
                   />
                 </div>
-                {/* Degree, School Name, Date */}
+
                 <div className="flex flex-col justify-between">
                   <div>
                     <h3 className="text-xl sm:text-2xl font-semibold text-white">
@@ -61,10 +58,10 @@ const Education = () => {
                       {edu.school}
                     </h4>
                   </div>
-                  {/* Date */}
                   <p className="text-sm text-gray-500 mt-2">{edu.date}</p>
                 </div>
               </div>
+
               <p className="mt-4 text-gray-400 font-bold">Grade: {edu.grade}</p>
               <p className="mt-4 text-gray-400">{edu.desc}</p>
             </div>

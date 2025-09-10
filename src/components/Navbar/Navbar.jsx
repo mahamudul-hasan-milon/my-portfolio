@@ -94,13 +94,12 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-500 px-[7vw] md:px-[7vw] lg:px-[20vw] 
-      ${
-        isScrolled
-          ? "bg-[#050414]/70 backdrop-blur-md shadow-md"
-          : "bg-transparent"
-      } 
-      ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}
+      className={`fixed top-0 w-full z-50 transition-all duration-500
+  px-6 md:px-12 lg:px-20 xl:px-32
+  ${
+    isScrolled ? "bg-[#050414]/70 backdrop-blur-md shadow-md" : "bg-transparent"
+  }
+  ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}
     >
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo */}

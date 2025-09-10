@@ -1,15 +1,12 @@
 import React from "react";
 import { SkillsInfo } from "./../../constants";
-import "../../index.css";
-import "../../App.css";
 
 const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom backgroundImage"
+      className="py-24 px-4 md:px-8 lg:px-16 xl:px-20 font-sans bg-skills-gradient clip-path-custom w-full mx-auto"
     >
-      {/* Section title */}
       <div className="text-center mb-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-white">SKILLS</h2>
         <div className="w-24 h-1 bg-[#8245ec] mx-auto mt-2"></div>
@@ -18,7 +15,7 @@ const Skills = () => {
           various projects and experiences
         </p>
       </div>
-      {/* Skills categories */}
+
       <div className="flex flex-wrap gap-1 lg:gap-5 py-10 justify-between">
         {SkillsInfo.map((category) => (
           <div
@@ -28,7 +25,7 @@ const Skills = () => {
             <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">
               {category.title}
             </h3>
-            {/* Skill Items */}
+
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
               {category.skills.map((skill) => (
                 <div
@@ -39,7 +36,7 @@ const Skills = () => {
                     src={skill.logo}
                     alt={`${skill.name} logo`}
                     className="w-6 h-6 sm:w-8 sm:h-8"
-                  ></img>
+                  />
                   <span className="text-xs sm:text-sm text-gray-300">
                     {skill.name}
                   </span>
