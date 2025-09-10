@@ -50,7 +50,10 @@ const Footer = () => {
               icon: <FaLinkedin />,
               link: "https://www.linkedin.com/in/md-mahamudul-hasan-milon-91aa81230/",
             },
-            { icon: <FaInstagram />, link: "" },
+            {
+              icon: <FaInstagram />,
+              link: "https://www.instagram.com/mahamudulhasan_milon/",
+            },
             { icon: <FaYoutube />, link: "https://www.youtube.com/@milon2226" },
           ].map((item, index) => (
             <a

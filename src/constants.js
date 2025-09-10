@@ -132,15 +132,7 @@ export const experiences = [
     company: "Self-Project",
     date: "January 2024 - May 2024",
     desc: "I created a portfolio website using React.js and Tailwind CSS, featuring responsive layouts with reusable components and smooth animations for enhanced UX. I deployed the site for a professional presence and managed hosting and version control with Git/GitHub.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "SQL",
-    ],
+    skills: ["ReactJS", "JavaScript", "Tailwind CSS", "HTML", "CSS"],
   },
 ];
 
@@ -148,9 +140,9 @@ export const education = [
   {
     id: 0,
     img: green,
-    school: "Green University of Bangladesh, Rupganj, Narayanganj",
+    school: "Green University of Bangladesh, Narayanganj",
     date: "December 2021 - December 2025",
-    grade: "3.18 CGPA",
+    grade: "CGPA 3.18",
     desc: "I completed my Bachelor's in Computer Science and Engineering from Green University of Bangladesh, gaining strong knowledge in programming, software development and core CS principles. Through courses, projects and workshops, I enhanced practical skills and prepared myself for a software industry career.",
     degree: "Bachelor of Computer Science & Engineering",
   },
@@ -159,7 +151,7 @@ export const education = [
     img: dinajpur,
     school: "Dinajpur Government College, Dinajpur",
     date: "June 2017 - July 2020",
-    grade: "A+",
+    grade: "GPA 5.00",
     desc: "I completed my HSC in Science from Dinajpur Government College, building strong knowledge in Physics, Chemistry, Mathematics and Biology. This enhanced my analytical, problem-solving and reasoning skills while extracurricular activities developed teamwork, leadership and discipline, preparing me for Computer Science studies.",
     degree: "Higher Secondary Certificate (HSC) in Science",
   },
@@ -168,7 +160,7 @@ export const education = [
     img: jagonnathpur_logo,
     school: "Jagonnathpur High School, Chirirbandor",
     date: "January 2015 - March 2017",
-    grade: "A+",
+    grade: "GPA 5.00",
     desc: "Completed Secondary School Certificate (SSC) in Science from Jagonnathpur High School, with a strong foundation in Physics, Chemistry, Mathematics, and General Science that developed my logical reasoning and problem-solving skills.",
     degree: "Secondary School Certificate (SSC) in Science",
   },
@@ -182,9 +174,8 @@ export const projects = [
       "A personal portfolio website built with React.js and Tailwind CSS, featuring reusable components, smooth animations and responsive layouts to highlight skills, projects and achievements professionally.",
     image: myself,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    github: "https://github.com/mahamudul-hasan-milon/my-portfolio",
+    webapp: "https://m-h-milon.vercel.app/",
   },
   {
     id: 1,
@@ -201,8 +192,8 @@ export const projects = [
       "CSS",
       "JavaScript",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "",
+    webapp: "",
   },
   {
     id: 2,
@@ -211,8 +202,9 @@ export const projects = [
       "Created a responsive pet adoption website using HTML, CSS and JavaScript (ES6), featuring pet listings, adoption guidance, shelter directory, application tracking and care resources with dynamic interactions via arrow functions and callbacks.",
     image: cat,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    github:
+      "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-mahamudul-hasan-milon",
+    webapp: "https://cerulean-salamander-576cb1.netlify.app/",
   },
   {
     id: 3,
@@ -221,7 +213,8 @@ export const projects = [
       "I developed Rinterio - a home design website using DaisyUI and Tailwind CSS. The website features interactive product listings, responsive layouts and user-friendly navigation. I implemented dynamic content integration, enhanced UX with smooth animations and managed the project using Git/GitHub.",
     image: house,
     tags: ["HTML", "TailwindCSS", "daisyUI"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+    github:
+      "https://github.com/mahamudul-hasan-milon/assignment-3?tab=readme-ov-file",
+    webapp: "https://polite-chimera-f08a0d.netlify.app/",
   },
 ];
