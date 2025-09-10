@@ -6,7 +6,7 @@ const Work = () => {
   const handleOpenModal = (project) => {
     setSelectedProject(project);
   };
-  const handleCloseModal = (project) => {
+  const handleCloseModal = () => {
     setSelectedProject(null);
   };
   return (

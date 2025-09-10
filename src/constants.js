@@ -151,7 +151,7 @@ export const education = [
     school: "Green University of Bangladesh, Rupganj, Narayanganj",
     date: "December 2021 - December 2025",
     grade: "3.18 CGPA",
-    desc: "I have completed my Bachelor's degree in Computer Science and Engineering (CSE) from Green University of Bangladesh. Throughout my studies, I gained a strong foundation in programming, software development and computer science principles. I studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development and Software Engineering. I also worked on academic projects and participated in technical workshops, which enhanced my practical skills and prepared me for a career in the software industry.",
+    desc: "I completed my Bachelor's in Computer Science and Engineering from Green University of Bangladesh, gaining strong knowledge in programming, software development and core CS principles. Through courses, projects and workshops, I enhanced practical skills and prepared myself for a software industry career.",
     degree: "Bachelor of Computer Science & Engineering",
   },
   {
@@ -160,7 +160,7 @@ export const education = [
     school: "Dinajpur Government College, Dinajpur",
     date: "June 2017 - July 2020",
     grade: "A+",
-    desc: "I have completed my Higher Secondary Certificate (HSC) in Science from Dinajpur Government College. During my studies, I developed a strong foundation in core subjects such as Physics, Chemistry, Mathematics and Biology. This academic background enhanced my analytical thinking, problem-solving ability, and logical reasoning skills. I actively participated in various academic and extracurricular activities, which helped me build discipline, teamwork and leadership qualities. My time at Dinajpur Government College played an important role in shaping my academic journey and preparing me for higher studies in Computer Science and Engineering.",
+    desc: "I completed my HSC in Science from Dinajpur Government College, building strong knowledge in Physics, Chemistry, Mathematics and Biology. This enhanced my analytical, problem-solving and reasoning skills while extracurricular activities developed teamwork, leadership and discipline, preparing me for Computer Science studies.",
     degree: "Higher Secondary Certificate (HSC) in Science",
   },
   {
