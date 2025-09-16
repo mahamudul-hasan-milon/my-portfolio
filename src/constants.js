@@ -44,8 +44,11 @@ import dinajpur from "./assets/education_logo/dinajpur.png";
 import jagonnathpur_logo from "./assets/education_logo/jagonnathpur_logo.jpg";
 
 // Project Section Logo's
-import cat from "./assets/work_logo/cat.png";
-import house from "./assets/work_logo/house.png";
+import portfolio from "../src/assets/work_logo/portfolio.png";
+import cholo from "../src/assets/work_logo/cholob.png";
+import paddy from "../src/assets/work_logo/paddy.png";
+import rinterio from "../src/assets/work_logo/rinterio.png";
+import shoplio from "../src/assets/work_logo/shoplio.png";
 
 export const SkillsInfo = [
   {
@@ -172,7 +175,7 @@ export const projects = [
     title: "My Portfolio Website",
     description:
       "A personal portfolio website built with React.js and Tailwind CSS, featuring reusable components, smooth animations and responsive layouts to highlight skills, projects and achievements professionally.",
-    image: myself,
+    image: portfolio,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
     github: "https://github.com/mahamudul-hasan-milon/my-portfolio",
     webapp: "https://m-h-milon.vercel.app/",
@@ -182,7 +185,7 @@ export const projects = [
     title: "Cholobazar - E-commerce Website",
     description:
       " Cholobazar is a full-featured MERN stack e-commerce site with user authentication, product management, shopping cart and responsive UI built using React.js and Tailwind CSS.",
-    image: cholobazar,
+    image: cholo,
     tags: [
       "React JS",
       "Node.js",
@@ -200,7 +203,7 @@ export const projects = [
     title: "Pet Adoption Website",
     description:
       "Created a responsive pet adoption website using HTML, CSS and JavaScript (ES6), featuring pet listings, adoption guidance, shelter directory, application tracking and care resources with dynamic interactions via arrow functions and callbacks.",
-    image: cat,
+    image: paddy,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
     github:
       "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-mahamudul-hasan-milon",
@@ -211,10 +214,20 @@ export const projects = [
     title: "Rinterio - Design Home",
     description:
       "I developed Rinterio - a home design website using DaisyUI and Tailwind CSS. The website features interactive product listings, responsive layouts and user-friendly navigation. I implemented dynamic content integration, enhanced UX with smooth animations and managed the project using Git/GitHub.",
-    image: house,
+    image: rinterio,
     tags: ["HTML", "TailwindCSS", "daisyUI"],
     github:
       "https://github.com/mahamudul-hasan-milon/assignment-3?tab=readme-ov-file",
     webapp: "https://polite-chimera-f08a0d.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Shoplio - E-commerce Website",
+    description:
+      "Shoplio is a comprehensive e-commerce website designed for seamless online shopping, offering a wide variety of products, secure payment options, fast and reliable delivery, user-friendly interface, personalized recommendations and exceptional customer service to enhance the overall shopping experience.",
+    image: shoplio,
+    tags: ["React JS", "API", "TailwindCSS"],
+    github: "https://github.com/mahamudul-hasan-milon/shoplio-website",
+    webapp: "https://shoplio-website.vercel.app/",
   },
 ];
