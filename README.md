@@ -75,7 +75,8 @@ npm start
 
 ## 📸 Preview
 
-![Portfolio Screenshot](https://your-image-link.com)
+![Portfolio Screenshot]
+https://ibb.co.com/wFWgnFhS
 
 ---
 
@@ -91,6 +92,6 @@ I am a passionate **Computer Science and Engineering graduate** from Green Unive
 
 ## 📬 Contact
 
-- **Email:** [your-email@gmail.com](mailto:your-email@gmail.com)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [github.com/your-username](https://github.com/your-username)
+- **Email:** [mahamudulhasanmilon553@gmail.com](mahamudulhasanmilon553@gmail.com)
+- **LinkedIn:** [https://www.linkedin.com/in/md-mahamudul-hasan-milon-91aa81230/](https://www.linkedin.com/in/md-mahamudul-hasan-milon-91aa81230/)
+- **GitHub:** [https://github.com/mahamudul-hasan-milon](https://github.com/mahamudul-hasan-milon)
