@@ -4,13 +4,13 @@ import cssLogo from "./assets/tech_logo/css.png";
 // import sassLogo from "./assets/tech_logo/sass.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
-import angularLogo from "./assets/tech_logo/angular.png";
-import reduxLogo from "./assets/tech_logo/redux.png";
-import nextjsLogo from "./assets/tech_logo/nextjs.png";
+// import angularLogo from "./assets/tech_logo/angular.png";
+// import reduxLogo from "./assets/tech_logo/redux.png";
+// import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 // import gsapLogo from "./assets/tech_logo/gsap.png";
 import materialuiLogo from "./assets/tech_logo/materialui.png";
-import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
+// import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 // import springbootLogo from "./assets/tech_logo/springboot.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
@@ -18,19 +18,19 @@ import mysqlLogo from "./assets/tech_logo/mysql.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import firebaseLogo from "./assets/tech_logo/firebase.png";
 import cLogo from "./assets/tech_logo/c.png";
-import cppLogo from "./assets/tech_logo/cpp.png";
+// import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import pythonLogo from "./assets/tech_logo/python.png";
-import typescriptLogo from "./assets/tech_logo/typescript.png";
+// import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
-import postmanLogo from "./assets/tech_logo/postman.png";
+// import postmanLogo from "./assets/tech_logo/postman.png";
 // import mcLogo from "./assets/tech_logo/mc.png";
 import figmaLogo from "./assets/tech_logo/figma.png";
 import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
-import postgreLogo from "./assets/tech_logo/postgre.png";
+// import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
 
 // Experience Section Logo's
@@ -59,13 +59,13 @@ export const SkillsInfo = [
       // { name: 'SASS', logo: sassLogo },
       { name: "JavaScript", logo: javascriptLogo },
       { name: "React JS", logo: reactjsLogo },
-      { name: "Angular", logo: angularLogo },
-      { name: "Redux", logo: reduxLogo },
-      { name: "Next JS", logo: nextjsLogo },
+      // { name: "Angular", logo: angularLogo },
+      // { name: "Redux", logo: reduxLogo },
+      // { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
       { name: "Material UI", logo: materialuiLogo },
-      { name: "Bootstrap", logo: bootstrapLogo },
+      // { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
   {
@@ -77,19 +77,19 @@ export const SkillsInfo = [
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Firebase", logo: firebaseLogo },
-      { name: "PostgreSQL", logo: postgreLogo },
+      // { name: "PostgreSQL", logo: postgreLogo },
     ],
   },
   {
     title: "Languages",
     skills: [
       { name: "C", logo: cLogo },
-      { name: "C++", logo: cppLogo },
+      // { name: "C++", logo: cppLogo },
       { name: "Java", logo: javaLogo },
       { name: "Python", logo: pythonLogo },
       { name: "C-Sharp", logo: csharpLogo },
       { name: "JavaScript", logo: javascriptLogo },
-      { name: "TypeScript", logo: typescriptLogo },
+      // { name: "TypeScript", logo: typescriptLogo },
     ],
   },
   {
@@ -98,7 +98,7 @@ export const SkillsInfo = [
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
       { name: "VS Code", logo: vscodeLogo },
-      { name: "Postman", logo: postmanLogo },
+      // { name: "Postman", logo: postmanLogo },
       // { name: 'Compass', logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
       { name: "Netlify", logo: netlifyLogo },
@@ -111,21 +111,20 @@ export const experiences = [
   {
     id: 0,
     img: cholobazar,
-    role: "MERN Stack Developer",
-    company: "Academic Self-Project",
+    role: "Front-End Developer",
+    company: "Academic Team-Project",
     date: "June 2024 - November 2024",
-    desc: "I built the Cholobazar E-commerce Website using the MERN stack, featuring user login, product, cart and order functionalities. I designed a responsive UI with React.js and Tailwind CSS, integrated REST APIs and managed the project with Git/GitHub.",
+    desc: "We built the Cholobazar E-commerce Website using the MERN stack, featuring user login, product, cart and order functionalities. We has designed a responsive UI with React.js and Tailwind CSS, integrated REST APIs and managed the project with Git/GitHub.",
     skills: [
       "HTML",
       "CSS",
+      "Tailwind CSS",
       "JavaScript",
       "React JS",
       "TypeScript",
       "Node JS",
-      "Tailwind CSS",
+      "Next Js",
       "MongoDb",
-      "Redux",
-      " Next Js",
     ],
   },
   {
@@ -135,7 +134,7 @@ export const experiences = [
     company: "Self-Project",
     date: "January 2024 - May 2024",
     desc: "I created a portfolio website using React.js and Tailwind CSS, featuring responsive layouts with reusable components and smooth animations for enhanced UX. I deployed the site for a professional presence and managed hosting and version control with Git/GitHub.",
-    skills: ["ReactJS", "JavaScript", "Tailwind CSS", "HTML", "CSS"],
+    skills: ["HTML", "CSS", "Tailwind CSS", "API", "JavaScript", "ReactJS"],
   },
 ];
 
@@ -176,7 +175,7 @@ export const projects = [
     description:
       "A personal portfolio website built with React.js and Tailwind CSS, featuring reusable components, smooth animations and responsive layouts to highlight skills, projects and achievements professionally.",
     image: portfolio,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+    tags: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React JS", "API"],
     github: "https://github.com/mahamudul-hasan-milon/my-portfolio",
     webapp: "https://m-h-milon.vercel.app/",
   },
@@ -184,16 +183,17 @@ export const projects = [
     id: 1,
     title: "Cholobazar - E-commerce Website",
     description:
-      " Cholobazar is a full-featured MERN stack e-commerce site with user authentication, product management, shopping cart and responsive UI built using React.js and Tailwind CSS.",
+      "Cholobazar is a full-featured MERN stack e-commerce site with user authentication, product management, shopping cart and responsive UI built using React.js and Tailwind CSS.",
     image: cholo,
     tags: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
       "React JS",
       "Node.js",
       "MongoDB",
       "Express",
-      "HTML",
-      "CSS",
-      "JavaScript",
     ],
     github: "",
     webapp: "",
@@ -204,7 +204,7 @@ export const projects = [
     description:
       "Created a responsive pet adoption website using HTML, CSS and JavaScript (ES6), featuring pet listings, adoption guidance, shelter directory, application tracking and care resources with dynamic interactions via arrow functions and callbacks.",
     image: paddy,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "API"],
     github:
       "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-mahamudul-hasan-milon",
     webapp: "https://cerulean-salamander-576cb1.netlify.app/",
@@ -226,7 +226,7 @@ export const projects = [
     description:
       "Shoplio is a comprehensive e-commerce website designed for seamless online shopping, offering a wide variety of products, secure payment options, fast and reliable delivery, user-friendly interface, personalized recommendations and exceptional customer service to enhance the overall shopping experience.",
     image: shoplio,
-    tags: ["React JS", "API", "TailwindCSS"],
+    tags: ["HTML", "TailwindCSS", "JavaScript", "API", "React JS"],
     github: "https://github.com/mahamudul-hasan-milon/shoplio-website",
     webapp: "https://shoplio-website.vercel.app/",
   },

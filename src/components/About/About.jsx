@@ -7,12 +7,12 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full px-4 md:px-8 lg:px-16 xl:px-20 font-sans mt-16 md:mt-24 lg:mt-32"
+      className="w-full font-sans mt-16 md:mt-24 lg:mt-32 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24"
     >
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center">
+      <div className="max-w-[1200px] mx-auto flex flex-col-reverse md:flex-row justify-between items-center gap-8">
         {/* Left Side */}
-        <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
+        <div className="md:w-1/2 text-center md:text-left">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-2 leading-tight">
             This is
           </h1>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
@@ -22,11 +22,7 @@ const About = () => {
             <span className="text-white">I'm a </span>
             <span className="text-[#8245ec]">
               <Typewriter
-                words={[
-                  "Web Developer",
-                  "Android App Developer",
-                  "UI/UX Designer",
-                ]}
+                words={["Web Developer", "Android App Developer"]}
                 loop={0}
                 cursor
                 cursorStyle="|"
@@ -36,20 +32,19 @@ const About = () => {
               />
             </span>
           </h3>
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            This is Mahamudul Hasan Milon, a passionate Fullstack Web Developer
-            and Android App Developer who loves turning ideas into powerful
-            digital experiences. With a blend of technical expertise and
-            creative design, I build modern, user-friendly and scalable
+          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-6 mt-4 leading-relaxed">
+            Mahamudul Hasan Milon, a passionate Fullstack Web Developer and
+            Android App Developer, loves turning ideas into powerful digital
+            experiences. I build modern, user-friendly, and scalable
             applications.
           </p>
           <a
             href="https://drive.google.com/file/d/1_0UJzY7vXZ4lzoFcIjESAkPYm6TbxCnL/view"
             target="_blank"
-            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition-transform duration-300 transform hover:scale-105"
             style={{
               background: "linear-gradient(90deg, #8245ec, #a855f7)",
-              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
+              boxShadow: "0 0 5px #8245ec, 0 0 20px #8245ec, 0 0 40px #8245ec",
             }}
           >
             DOWNLOAD RESUME
@@ -61,7 +56,7 @@ const About = () => {
           <img
             src={profileImage}
             alt="M H Milon"
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 rounded-full border-purple-700 object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[28rem] md:h-[28rem] lg:w-[30rem] lg:h-[30rem] border-4 rounded-full border-purple-700 object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)] transition-transform duration-300 hover:scale-105"
           />
         </div>
       </div>

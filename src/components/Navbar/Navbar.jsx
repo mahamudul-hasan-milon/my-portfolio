@@ -18,17 +18,17 @@ const SocialLinks = ({ mobile = false }) => (
       href="https://github.com/mahamudul-hasan-milon"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-gray-300 hover:text-[#8245ec]"
+      className="text-gray-300 hover:text-[#8245ec] transition-colors duration-300"
     >
-      <FaGithub size={24} />
+      <FaGithub size={22} />
     </a>
     <a
       href="https://www.linkedin.com/in/md-mahamudul-hasan-milon-91aa81230/"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-gray-300 hover:text-[#8245ec]"
+      className="text-gray-300 hover:text-[#8245ec] transition-colors duration-300"
     >
-      <FaLinkedin size={24} />
+      <FaLinkedin size={22} />
     </a>
   </div>
 );
@@ -40,21 +40,14 @@ const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  // Navbar background & hide on scroll
+  // Navbar scroll behavior
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY;
 
-      // show/hide navbar on scroll direction
-      if (currentScroll > lastScrollY && currentScroll > 100) {
-        setShowNavbar(false); // scrolling down → hide
-      } else {
-        setShowNavbar(true); // scrolling up → show
-      }
-
-      // background when scrolled
+      // Hide on scroll down, show on scroll up
+      setShowNavbar(currentScroll < lastScrollY || currentScroll < 100);
       setIsScrolled(currentScroll > 50);
-
       setLastScrollY(currentScroll);
     };
 
@@ -62,10 +55,10 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
-  // Scrollspy for active section
+  // Scrollspy
   useEffect(() => {
     const handleScrollSpy = () => {
-      const scrollPos = window.scrollY + 150; // offset
+      const scrollPos = window.scrollY + 150;
       menuItems.forEach((item) => {
         const section = document.getElementById(item.id);
         if (section) {
@@ -94,16 +87,17 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-500
-  px-6 md:px-12 lg:px-20 xl:px-32
-  ${
-    isScrolled ? "bg-[#050414]/70 backdrop-blur-md shadow-md" : "bg-transparent"
-  }
-  ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}
+      className={`fixed top-0 w-full z-50 transition-all duration-500 
+      ${
+        isScrolled
+          ? "bg-[#050414]/80 backdrop-blur-md shadow-lg"
+          : "bg-transparent"
+      } 
+      ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}
     >
-      <div className="text-white py-5 flex justify-between items-center">
+      <div className="max-w-[1200px] mx-auto px-5 sm:px-8 md:px-10 lg:px-16 xl:px-24 flex justify-between items-center py-4">
         {/* Logo */}
-        <div className="text-lg font-semibold cursor-pointer">
+        <div className="text-lg sm:text-xl font-semibold cursor-pointer select-none">
           <span className="text-[#8245ec]">&lt;</span>
           <span className="text-white">M H</span>
           <span className="text-[#8245ec]">/</span>
@@ -112,11 +106,11 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-gray-300">
+        <ul className="hidden md:flex items-center space-x-8 text-gray-300 font-medium">
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#8245ec] ${
+              className={`cursor-pointer transition-colors duration-300 hover:text-[#8245ec] ${
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
@@ -134,12 +128,12 @@ const Navbar = () => {
         <div className="md:hidden">
           {isOpen ? (
             <IoMdClose
-              className="text-3xl text-[#8245ec] cursor-pointer"
+              className="text-3xl text-[#8245ec] cursor-pointer transition-transform duration-300 hover:scale-110"
               onClick={() => setIsOpen(false)}
             />
           ) : (
             <MdMenu
-              className="text-3xl text-[#8245ec] cursor-pointer"
+              className="text-3xl text-[#8245ec] cursor-pointer transition-transform duration-300 hover:scale-110"
               onClick={() => setIsOpen(true)}
             />
           )}
@@ -148,17 +142,18 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-70 backdrop-blur-lg rounded-lg shadow-lg md:hidden transition-all duration-300 ${
-          isOpen
-            ? "opacity-100 scale-100"
-            : "opacity-0 scale-95 pointer-events-none"
-        }`}
+        className={`absolute top-[72px] left-1/2 transform -translate-x-1/2 w-[90%] sm:w-[80%] bg-[#050414]/90 backdrop-blur-xl rounded-2xl shadow-xl md:hidden transition-all duration-300 
+          ${
+            isOpen
+              ? "opacity-100 scale-100"
+              : "opacity-0 scale-95 pointer-events-none"
+          }`}
       >
-        <ul className="flex flex-col items-center space-y-4 py-6 text-gray-300">
+        <ul className="flex flex-col items-center space-y-5 py-6 text-gray-300 font-medium">
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-white ${
+              className={`cursor-pointer hover:text-white transition-colors duration-300 ${
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
