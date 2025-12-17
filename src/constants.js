@@ -49,6 +49,7 @@ import cholo from "../src/assets/work_logo/cholob.png";
 import paddy from "../src/assets/work_logo/paddy.png";
 import rinterio from "../src/assets/work_logo/rinterio.png";
 import shoplio from "../src/assets/work_logo/shoplio.png";
+import hungryUp from "../src/assets/work_logo/hungryUp.png";
 
 export const SkillsInfo = [
   {
@@ -229,5 +230,15 @@ export const projects = [
     tags: ["HTML", "TailwindCSS", "JavaScript", "API", "React JS"],
     github: "https://github.com/mahamudul-hasan-milon/shoplio-website",
     webapp: "https://shoplio-website.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Hungry Up – Food Ordering Website",
+    description:
+      "Hungry Up is a modern food ordering website designed for quick and convenient online meal ordering, offering curated restaurant listings, interactive menus, secure checkout, real-time order tracking, and a user-friendly interface to deliver a smooth and reliable dining experience.",
+    image: hungryUp,
+    tags: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/mahamudul-hasan-milon/hungry-up",
+    webapp: "https://hungry-up.vercel.app/",
   },
 ];

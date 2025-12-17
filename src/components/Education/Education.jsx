@@ -29,7 +29,7 @@ const Education = () => {
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute lg:left-1/2 transform -translate-x-1/2 w-12 h-12 lg:w-16 lg:h-16 rounded-full border-4 border-purple-500 bg-gray-700 flex justify-center items-center z-10 hidden lg:flex">
+            <div className="absolute lg:left-1/2 transform -translate-x-1/2 w-12 h-12 lg:w-16 lg:h-16 rounded-full border-4 border-purple-500 bg-gray-700 justify-center items-center z-10 hidden lg:flex">
               <img
                 src={edu.img}
                 alt={edu.school}
