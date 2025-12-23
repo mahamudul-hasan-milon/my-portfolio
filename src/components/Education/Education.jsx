@@ -8,7 +8,11 @@ const Education = () => {
     >
       {/* Section Title */}
       <div className="text-center mb-16">
-        <h2 className="text-4xl sm:text-5xl font-bold text-white">EDUCATION</h2>
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold relative z-10">
+          <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
+            EDUCATION
+          </span>
+        </h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4 rounded-full"></div>
         <p className="text-gray-400 mt-4 text-lg sm:text-xl font-medium max-w-3xl mx-auto leading-relaxed">
           My education has been a journey of continuous learning and

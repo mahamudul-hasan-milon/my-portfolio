@@ -8,8 +8,10 @@ const Experience = () => {
     >
       {/* Section Title */}
       <div className="max-w-[1200px] mx-auto text-center mb-16 relative z-10">
-        <h2 className="text-4xl sm:text-5xl font-bold text-white">
-          EXPERIENCE
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold relative z-10">
+          <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 bg-clip-text text-transparent">
+            EXPERIENCE
+          </span>
         </h2>
         <div className="w-32 h-1 bg-[#8245ec] mx-auto mt-4 rounded-full"></div>
         <p className="text-gray-400 mt-4 text-lg sm:text-lg font-medium max-w-[800px] mx-auto leading-relaxed">
