@@ -185,30 +185,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
-        {/* Tech stack hint */}
-        <div className="mt-20 text-center">
-          <p className="text-gray-500 text-sm mb-4">Technologies I work with</p>
-          <div className="flex flex-wrap justify-center gap-3">
-            {[
-              "React",
-              "Node.js",
-              "MongoDB",
-              "Express",
-              "Android",
-              "Tailwind",
-              "JavaScript",
-              "Python",
-            ].map((tech, index) => (
-              <span
-                key={index}
-                className="px-4 py-2 rounded-full bg-gradient-to-r from-gray-900 to-gray-950 border border-gray-800 text-gray-400 text-sm hover:border-purple-500 hover:text-purple-300 transition-all duration-300"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
       </div>
 
       {/* Custom animations */}
