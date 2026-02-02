@@ -6,11 +6,11 @@ import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
 // import angularLogo from "./assets/tech_logo/angular.png";
 // import reduxLogo from "./assets/tech_logo/redux.png";
-// import nextjsLogo from "./assets/tech_logo/nextjs.png";
+import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 // import gsapLogo from "./assets/tech_logo/gsap.png";
 import materialuiLogo from "./assets/tech_logo/materialui.png";
-// import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
+import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 // import springbootLogo from "./assets/tech_logo/springboot.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
@@ -34,7 +34,7 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
 
 // Experience Section Logo's
-import myself from "./assets/profile2.jpg";
+import nextTech from "./assets/company_logo/nexttech.png";
 
 import cholobazar from "./assets/company_logo/cholobazar.png";
 
@@ -62,11 +62,11 @@ export const SkillsInfo = [
       { name: "React JS", logo: reactjsLogo },
       // { name: "Angular", logo: angularLogo },
       // { name: "Redux", logo: reduxLogo },
-      // { name: "Next JS", logo: nextjsLogo },
+      { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
       { name: "Material UI", logo: materialuiLogo },
-      // { name: "Bootstrap", logo: bootstrapLogo },
+      { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
   {
@@ -110,7 +110,25 @@ export const SkillsInfo = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 1,
+    img: nextTech,
+    role: "Frontend Developer Intern",
+    company: "NextTech Ltd",
+    date: "October 2025 - December 2025",
+    desc: "Completed a 3-month internship as a Frontend Developer Intern at NextTech Ltd, where I worked on production-level web applications. Built and optimized responsive UI components using React.js and Tailwind CSS, collaborated with backend developers, implemented reusable components, and followed Git/GitHub workflows in a team environment.",
+    skills: [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "React JS",
+      "Git",
+      "GitHub",
+      "REST API",
+    ],
+  },
+  {
+    id: 1,
     img: cholobazar,
     role: "Front-End Developer",
     company: "Academic Team-Project",
@@ -127,15 +145,6 @@ export const experiences = [
       "Next Js",
       "MongoDb",
     ],
-  },
-  {
-    id: 1,
-    img: myself,
-    role: "Front-End Developer",
-    company: "Self-Project",
-    date: "January 2024 - May 2024",
-    desc: "I created a portfolio website using React.js and Tailwind CSS, featuring responsive layouts with reusable components and smooth animations for enhanced UX. I deployed the site for a professional presence and managed hosting and version control with Git/GitHub.",
-    skills: ["HTML", "CSS", "Tailwind CSS", "API", "JavaScript", "ReactJS"],
   },
 ];
 
