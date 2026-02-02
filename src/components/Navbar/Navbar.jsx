@@ -180,7 +180,6 @@ const SocialIcon = ({ href, IconComponent, label, color, tooltip }) => {
   );
 };
 
-// Desktop Nav Item (without icons)
 const DesktopNavItem = ({ item, isActive, onClick }) => (
   <li className="relative group list-none">
     <button

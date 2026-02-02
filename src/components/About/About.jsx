@@ -127,30 +127,6 @@ const About = () => {
                 <FaArrowRight className="group-hover:translate-x-1 transition-transform duration-300" />
               </a>
             </div>
-
-            {/* Social Links */}
-            <div className="flex flex-col items-center lg:items-start">
-              <p className="text-gray-500 text-sm mb-4">Connect with me</p>
-              <div className="flex gap-3">
-                {socialLinks.map((link, index) => (
-                  <a
-                    key={index}
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`group relative p-3 rounded-xl bg-gradient-to-br from-gray-900 to-gray-950 border border-gray-800 ${link.color} hover:scale-110 transition-all duration-300`}
-                    aria-label={link.label}
-                  >
-                    <div className="text-xl text-gray-400 group-hover:text-white transition-colors duration-300">
-                      {link.icon}
-                    </div>
-                    <span className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-xs text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
-                      {link.label}
-                    </span>
-                  </a>
-                ))}
-              </div>
-            </div>
           </div>
 
           {/* Right Content - Profile Image */}
