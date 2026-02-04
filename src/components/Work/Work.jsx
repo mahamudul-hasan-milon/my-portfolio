@@ -61,20 +61,6 @@ const Work = () => {
                 <h3 className="text-xl sm:text-2xl font-bold text-white text-center group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-pink-400 group-hover:bg-clip-text transition-all duration-300">
                   {project.title}
                 </h3>
-                <p className="text-gray-400 mt-4 mb-6 line-clamp-3 text-sm sm:text-base leading-relaxed text-center">
-                  {project.description}
-                </p>
-
-                <div className="flex flex-wrap justify-center gap-2 mt-4">
-                  {project.tags.map((tag, index) => (
-                    <span
-                      key={index}
-                      className="bg-gradient-to-r from-gray-800 to-gray-900 border border-gray-700 text-xs sm:text-sm font-semibold text-gray-300 rounded-full px-3 py-1.5 hover:from-purple-900/50 hover:to-pink-900/50 hover:border-purple-500/50 hover:text-purple-200 transition-all duration-300"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
 
                 {/* View details hint */}
                 <div className="mt-6 text-center">

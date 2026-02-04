@@ -4,7 +4,6 @@ import {
   FaLinkedin,
   FaInstagram,
   FaYoutube,
-  FaArrowUp,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -15,26 +14,12 @@ const Footer = () => {
     }
   };
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
   return (
     <footer className="relative bg-gradient-to-b from-gray-950 to-black text-white pt-16 pb-10 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-20 w-full overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-purple-500 to-transparent"></div>
       <div className="absolute -top-32 -left-32 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -right-32 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
-
-      {/* Scroll to top button */}
-      <button
-        onClick={scrollToTop}
-        className="fixed bottom-8 right-8 z-40 w-12 h-12 flex items-center justify-center rounded-full bg-gradient-to-br from-purple-600 to-pink-600 text-white shadow-lg hover:shadow-purple-500/50 hover:scale-110 transition-all duration-300 group"
-        aria-label="Scroll to top"
-      >
-        <FaArrowUp className="text-lg group-hover:-translate-y-1 transition-transform duration-300" />
-      </button>
-
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Name with gradient */}
         <div className="text-center mb-10">

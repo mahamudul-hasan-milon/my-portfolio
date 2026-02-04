@@ -46,10 +46,13 @@ import jagonnathpur_logo from "./assets/education_logo/jagonnathpur_logo.jpg";
 // Project Section Logo's
 import portfolio from "../src/assets/work_logo/portfolio.png";
 import cholo from "../src/assets/work_logo/cholob.png";
-import paddy from "../src/assets/work_logo/paddy.png";
 import rinterio from "../src/assets/work_logo/rinterio.png";
 import shoplio from "../src/assets/work_logo/shoplio.png";
 import hungryUp from "../src/assets/work_logo/hungryUp.png";
+import medInsight from "../src/assets/work_logo/medinsight.png";
+import gubAR from "../src/assets/work_logo/gubAR.jpeg";
+import jobPortal from "../src/assets/work_logo/job-portal.png";
+import teaHouse from "../src/assets/work_logo/tea-house.png";
 
 export const SkillsInfo = [
   {
@@ -191,7 +194,7 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Cholobazar - E-commerce Website",
+    title: "Cholobazar - Ecommerce Website",
     description:
       "Cholobazar is a full-featured MERN stack e-commerce site with user authentication, product management, shopping cart and responsive UI built using React.js and Tailwind CSS.",
     image: cholo,
@@ -210,14 +213,13 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Pet Adoption Website",
+    title: "The Tea House – Freshly Brewed Tea Experience",
     description:
-      "Created a responsive pet adoption website using HTML, CSS and JavaScript (ES6), featuring pet listings, adoption guidance, shelter directory, application tracking and care resources with dynamic interactions via arrow functions and callbacks.",
-    image: paddy,
-    tags: ["HTML", "CSS", "JavaScript", "API"],
-    github:
-      "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-mahamudul-hasan-milon",
-    webapp: "https://cerulean-salamander-576cb1.netlify.app/",
+      "Tea House is a modern tea shop website crafted with HTML and Tailwind CSS, designed to showcase premium tea selections with a clean layout, responsive design, featured products, and visually engaging sections that highlight freshness, quality, and a delightful tea-drinking experience.",
+    image: teaHouse,
+    tags: ["HTML", "CSS", "Tailwind CSS"],
+    github: "https://github.com/mahamudul-hasan-milon/tea-house",
+    webapp: "https://tea-house5.netlify.app/",
   },
   {
     id: 3,
@@ -249,5 +251,35 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/mahamudul-hasan-milon/hungry-up",
     webapp: "https://hungry-up.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "MedInsight – Medicine & Healthcare Analytics Platform",
+    description:
+      "MedInsight is a modern healthcare analytics platform designed to transform medical data into actionable insights, offering intuitive dashboards, real-time data visualization, secure data management, and intelligent reporting to support informed clinical and operational decision-making with accuracy and efficiency.",
+    image: medInsight,
+    tags: ["React", "Node", "Express", "MongoDB"],
+    github: "https://github.com/jakaria2055/medinsight_client",
+    webapp: "https://medinsight-client.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Green University AR – Indoor Navigation System",
+    description:
+      "Green University AR is an augmented reality–based indoor navigation system designed to help students and visitors easily navigate campus buildings, providing real-time directional guidance, interactive AR overlays, location-based assistance and an intuitive interface to improve accessibility and on-campus mobility.",
+    image: gubAR,
+    tags: ["AR", "Unity", "Vuforia", "Android", "C#"],
+    github: "https://github.com/mahamudul-hasan-milon/gub-ar-nav-app",
+    webapp: "https://gub-ar-nav-app.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Job Portal – Smart Recruitment & Job Search Platform",
+    description:
+      "Job Portal is a modern recruitment platform designed to connect job seekers and employers efficiently, offering advanced job listings, seamless application management, role-based dashboards, secure authentication and an intuitive user experience to simplify hiring and career discovery.",
+    image: jobPortal,
+    tags: ["React", "Node", "Express", "MongoDB"],
+    github: "https://github.com/mahamudul-hasan-milon/job-portal-client",
+    webapp: "https://job-portal-74771.web.app/",
   },
 ];
