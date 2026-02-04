@@ -219,7 +219,7 @@ export const projects = [
     image: teaHouse,
     tags: ["HTML", "CSS", "Tailwind CSS"],
     github: "https://github.com/mahamudul-hasan-milon/tea-house",
-    webapp: "https://tea-house5.netlify.app/",
+    webapp: "https://tea-house-eta.vercel.app/",
   },
   {
     id: 3,
