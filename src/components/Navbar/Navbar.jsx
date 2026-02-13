@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback, useMemo } from "react";
+import { useEffect, useState, useCallback, useMemo } from "react";
 import { MdMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
@@ -31,8 +31,8 @@ const NAV_CONFIG = {
     },
   ],
   resume: {
-    url: "/resume.pdf",
-    filename: "Mahamudul_Hasan_Milon_Resume.pdf",
+    url: "/public/Resume.pdf",
+    filename: "Resume.pdf",
   },
 };
 

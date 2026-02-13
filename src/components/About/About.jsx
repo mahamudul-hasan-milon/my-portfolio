@@ -6,28 +6,6 @@ import profileImage from "../../assets/profile2.jpg";
 import "../../App.css";
 
 const About = () => {
-  const socialLinks = [
-    {
-      icon: <FaGithub />,
-      href: "https://github.com/mahamudul-hasan-milon",
-      label: "GitHub",
-      color: "hover:shadow-purple-500/30",
-    },
-    {
-      icon: <FaLinkedin />,
-      href: "https://www.linkedin.com/in/md-mahamudul-hasan-milon-91aa81230/",
-      label: "LinkedIn",
-      color: "hover:shadow-blue-500/30",
-    },
-
-    {
-      icon: <SiGmail />,
-      href: "mahamudulhasanmilon553@gmail.com",
-      label: "Email",
-      color: "hover:shadow-red-500/30",
-    },
-  ];
-
   return (
     <section
       id="about"
@@ -110,7 +88,7 @@ const About = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <a
-                href="https://drive.google.com/file/d/1_0UJzY7vXZ4lzoFcIjESAkPYm6TbxCnL/view"
+                href="https://drive.google.com/uc?export=download&id=1vGo-xjjoZKYPHu2rdt2ptskEVqrH-xED"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative px-8 py-4 rounded-xl bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-bold text-lg transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/30 overflow-hidden flex items-center justify-center space-x-2"
