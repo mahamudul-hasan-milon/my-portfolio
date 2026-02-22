@@ -407,7 +407,7 @@ const NavbarBackground = ({ isScrolled, isMenuOpen }) => (
 // Main Component
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { isScrolled, isVisible } = useNavbarScroll();
+  const { isScrolled } = useNavbarScroll();
   const activeSection = useActiveSection(NAV_CONFIG.menuItems);
 
   const handleItemClick = useCallback((id) => {
@@ -426,10 +426,10 @@ const Navbar = () => {
 
   const navbarClasses = useMemo(
     () =>
-      `fixed top-0 w-full z-50 transition-all duration-700 transform ${
-        isVisible ? "translate-y-0" : "-translate-y-full"
-      } ${isMenuOpen ? "bg-gray-950" : ""}`,
-    [isVisible, isMenuOpen],
+      `fixed top-0 w-full z-50 transition-all duration-700 transform translate-y-0 ${
+        isMenuOpen ? "bg-gray-950" : ""
+      }`,
+    [isMenuOpen],
   );
 
   return (
